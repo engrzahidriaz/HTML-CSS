@@ -1,0 +1,43 @@
+/* p::first-letter{
+    font-size: 32px;
+} */
+/* p::first-line{
+    font-size: 20px;
+    color: green;
+} */
+/* p::selection{
+    background: grey;
+    color: indianred;
+} */
+/* h1::selection{
+    background: red;
+    color: black;
+} */
+/* ::selection{
+    background: red;
+    color: black;
+} */
+
+/* .cool::before{               #this is inline in defalt setting
+    content: 'hello ';
+} */
+/* .cool::before{
+    content: "hello ";
+    color: green;
+    border: 2px dotted red;
+} */
+/* .cool::before{
+    display: block;
+    content: "hello ";
+    color: green;
+    border: 2px dotted red;
+} */
+
+/* .cool::after{
+    display: block;
+    content: "hello ";
+    color: green;
+    border: 2px dotted red;
+} */
+
+/* before and after not used with 'img' 'input' 'br' */

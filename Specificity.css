@@ -1,0 +1,27 @@
+
+/* prefrence of class selector is greater then element */
+/* specfication: inline attributes > id > class > element */
+
+h1{
+    color: green;
+}
+
+.h1class{
+    color: red;
+}
+
+/* #h1id{
+    color: blue !important;
+} */
+
+/* below class is more prefrence then above */
+
+.h1class1{
+    color: chartreuse;
+}
+/* 0,0,1,0 --> 10 */
+
+h1.h1class{
+    color: magenta;
+}
+/* 0,0,1,1 --> 11 */

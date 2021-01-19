@@ -1,0 +1,29 @@
+/* link, visited, hover, active (order is important) */
+
+a:link{
+    color: blue;
+}
+a:visited{
+    color: green;
+}
+a:hover{
+    color: yellow;
+}
+a:active{
+    color: red;
+}
+p:hover{
+    background-color: seashell;
+}
+p:active{
+    color: springgreen;
+}
+
+input:focus{
+    padding: 5px;
+    outline: none;
+    border: 2px solid green;
+}
+input:required{
+    color: red;
+}

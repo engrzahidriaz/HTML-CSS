@@ -1,0 +1,38 @@
+/* *{                   #universal selector
+    color: blue;
+} */
+
+header{
+    background-color: #f0ebeb;
+}
+section.My-articles{
+    background-color: #f2a9a9;
+}
+
+/* p{                     #all paragraph color
+    color: red;
+} */
+
+header p{                 /*all paragraph color in the header*/
+    color: red;
+}
+
+li a{
+    color: blue;
+}
+
+/* section.My-articles h2{     #all h2 in section
+    color: green;
+} */
+
+section.My-articles > h2{     /*just direct h2 in section*/
+    color: green;
+}
+
+h2+p{                          /*all first's paragraph after direct h2 in section*/
+    color: orangered;
+}
+
+ul+p{                          /*all first's paragraph after direct ul in header*/
+    color: green;
+}

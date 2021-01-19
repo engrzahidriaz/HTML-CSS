@@ -1,0 +1,18 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #444;
+}
+h1, h2{
+    border: 2px solid #222;
+    /* width: 500px;
+    height: 100px;
+    margin: 20px;
+    padding: 50px; */
+    display: inline;    /*change block level to inline*/
+}
+a{
+    border: 2px solid rgb(45, 223, 90);
+    /* margin: 50px;
+    padding: 50px; */
+    display: block;      /*change block level to inline*/
+} 

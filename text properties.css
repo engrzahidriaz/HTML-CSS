@@ -1,0 +1,19 @@
+h1{
+    background-color: lightblue;
+    text-align: center;
+    width: 500px;
+    letter-spacing: 5px;
+}
+a{
+    display: inline-block;
+    width: 500px;
+    background-color: lightcyan;
+    text-align: center;
+}
+p{
+    width: 500px;
+    font-weight: 700;
+    font-style: italic;
+    line-height: 20px;
+    word-spacing: 8px;
+}

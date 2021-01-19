@@ -1,0 +1,54 @@
+/* p:first-child{         #all type of first child
+    color: red;
+} */
+/* p:first-of-type{       #just p type of first child
+    color:green;
+} */
+
+/* p:last-child{          #all type of last child
+    color: blue;
+} */ 
+/* p:last-of-type{        #just p type of last child
+    color: coral;
+} */
+
+/* p:nth-child(2){        #all type of second child
+    color: cyan;
+} */
+/* p:nth-child(2n){
+    color: yellow;
+    background-color: teal;
+} */
+/* p:nth-of-type(2){       #just p type of second child
+    color: tomato;
+} */
+/* p:nth-of-type(2n){
+    color: chartreuse;
+} */
+
+/* :not(p){
+    color: darkgoldenrod;
+} */
+/* body:not(p){
+    color: darkgoldenrod;
+} */
+/* body:not(.fancy){
+    color: blue;
+    background: #ddd;
+} */
+
+/* div:empty{
+    background: #222;
+    border: 2px solid red;
+    height: 100px;
+    width: 100px;
+} */
+/* :root{
+    color: yellow;
+    background: tomato;
+} */
+/* html{
+    color: tomato;
+    background: green;
+} */
+
