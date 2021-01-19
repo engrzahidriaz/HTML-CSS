@@ -1,0 +1,60 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* ############# Flex elements ############ */
+/* flex-self:--> work for cross axis 
+    order:--> lowest order element comes first and so on.
+    flex-basis:--> like width not not same, initial length toward main axis.
+    flex-grow:--> use to occupy the spare space, lowest element occupy less space
+    flex-shrink:--> adjust according to space 
+    flex:--> combine properties of grow, shrink,basis */
+
+.box-wrapper{
+    border: 10px solid black;
+    display: flex;
+    width: 1200px;
+    /* max-width: 1200px;   #for screen adjustment */
+    /* flex-wrap: wrap; */
+    /* flex-direction: column; */
+    /* height: 400px; */
+    /* align-items: center; */
+    /* justify-content: space-between;  */
+    
+}
+.box{
+    border: 1px solid brown;
+    /* width: 500px; */
+    /* flex-basis: 300px; */
+    /* if use both width and flex-basis, flex-basis will be frefered */
+    /* flex-grow: 1; */
+    flex: 1, 2, 400px;
+}
+.box-1{
+    background-color: lightblue;
+    /* align-self: flex-start; */
+    /* order: 2; */
+    /* flex-grow: 2; */
+    /* flex-shrink: 3; */
+}
+.box-2{
+    background-color: lightcyan;
+    /* align-self: flex-start; */
+    /* align-self: stretch; */
+    /* order: 1; */
+    /* flex-grow: 1; */
+    /* flex-shrink: 1; */
+}
+.box-3{
+    background-color: lightpink;
+    /* align-self: flex-end; */
+    /* order: 0; */
+    /* flex-grow: 1; */
+    /* flex-shrink: 1; */
+}
+.box-4{
+    background-color: lightsteelblue;
+}
+.box-5{
+    background-color: lightsalmon;
+}

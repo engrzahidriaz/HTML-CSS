@@ -1,0 +1,52 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* ############# Flex container ############ */
+/* flex-direction:--> move box in main axis and cross axis, 
+    flex-wrap:--> adjust the box's width and height next line, 
+    justify-content:--> , 
+    align-items:--> occupy require space, work for cross axis
+    align-content:--> use for mutiple rows
+    flex-flow:--> combine direction and wrap properties */
+.box-wrapper{
+    border: 10px solid black;
+    display: flex;
+    /* height: 400px; */
+    /* height: 600px; */
+    /* flex-direction: row; */
+    /* flex-direction: column; */
+    /* flex-direction: row-reverse; */
+    /* flex-wrap: wrap; */
+    /* justify-content: flex-end; */
+    /* justify-content: space-between; */
+    /* justify-content: space-around; */
+    /* align-items: stretch; */
+    /* align-items: center; */
+    /* align-items: flex-start; */
+    /* align-content: flex-end; */   
+    /* align-content: center; */
+    /* align-content: space-around; */
+    /* flex-flow: row wrap; */
+    /* flex-flow: column nowrap; */
+    
+}
+.box{
+    border: 1px solid brown;
+    /* width: 500px; */
+}
+.box-1{
+    background-color: lightblue;
+}
+.box-2{
+    background-color: lightcyan;
+}
+.box-3{
+    background-color: lightpink;
+}
+.box-4{
+    background-color: lightsteelblue;
+}
+.box-5{
+    background-color: lightsalmon;
+}
