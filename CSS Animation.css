@@ -1,0 +1,36 @@
+/* .box{
+    width: 100px;
+    height: 100px;
+    background: red;
+    animation: change-bg-color;
+    animation-duration: 5s;
+    animation-delay: 3s;
+    animation-iteration-count: 3;
+    animation-fill-mode: forwards;
+}
+@keyframes change-bg-color{
+    from{
+        background: black;
+    }
+    to{
+        background: yellow;
+    }
+} */
+
+.box2{
+    width: 15px;
+    height: 10px;
+    background:blue;
+    animation: change-width;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+    animation-direction: reverse;
+}
+@keyframes change-width{
+    from{
+        width: 0px;
+    }
+    to{
+        width: 300px;
+    }
+}
