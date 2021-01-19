@@ -1,0 +1,35 @@
+html{
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+*{
+    box-sizing: border-box;
+}
+.box-wrapper{
+    border: 2px solid black;
+}
+.box1{
+    background: lightgray;
+    width: 48%;
+    float: left;
+    padding: 5px;
+}
+.box2{
+    background: lightgray;
+    width: 48%;
+    float: right;
+    padding: 5px;
+}
+.box-wrapper::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+
+@media (max-width: 768px){
+    .box1, .box2{
+        float: none;
+        width: 100%;
+        margin-bottom: 0.5rem;
+    }
+}
